@@ -5,10 +5,10 @@
     xmlns:local="using:UniversalComponent"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:universalComponent="using:UniversalComponent"
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <universalComponent:SpecificUsercontrol />
+        <!--<local:SpecificUsercontrol />-->
+        <local:SharedUsercontrol />
     </Grid>
 </Page>
