@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Windows.UI.Popups;
 
 namespace UniversalComponent.ViewModels
 {
-    public class ItemVm : ViewModelBase
+    public class ItemVM : ViewModelBase
     {
         private string _title;
         public string Title
@@ -64,7 +66,8 @@ namespace UniversalComponent.ViewModels
 
         private async void ButtonAction()
         {
-            //DoTheStuff
+            var msg = new MessageDialog("DoTheStuff!");
+            await msg.ShowAsync();
         }
     }
 }
