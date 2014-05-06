@@ -28,7 +28,7 @@ namespace UniversalComponent
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
-            this.DataContext = new ItemVm();
+            this.DataContext = new ItemVM();
         }
 
         /// <summary>

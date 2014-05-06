@@ -26,7 +26,7 @@ namespace UniversalComponent
         public MainPage()
         {
             this.InitializeComponent();
-            this.DataContext = new ItemVm();
+            this.DataContext = new ItemVM();
         }
     }
 }

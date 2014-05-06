@@ -57,7 +57,7 @@ namespace UniversalComponent.ViewModels
             get { return _buttonCommand ?? (_buttonCommand = new RelayCommand(ButtonAction, () => true)); }
         }
 
-        public ItemVm()
+        public ItemVM()
         {
             Title = "Cool sheep";
             Details = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut malesuada lacus. Nulla at fringilla tortor, in dictum mi. Nulla fermentum lorem eu metus tempor, vel vulputate orci congue. Sed dapibus ante in diam feugiat, sed vulputate eros pulvinar. Aliquam ultrices fringilla fermentum. Cras consequat suscipit accumsan. Aliquam non leo vestibulum, tempus urna eu, aliquet quam. Cras sit amet rutrum augue, a rhoncus purus. Pellentesque tempor laoreet erat, eu pretium mauris facilisis eu. Suspendisse fermentum feugiat magna, id pulvinar justo sollicitudin id. Maecenas sit amet vulputate nibh. In hac habitasse platea dictumst. Nullam in pulvinar ligula. Donec pellentesque tempus felis.";
